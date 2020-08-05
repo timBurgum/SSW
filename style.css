@@ -1,0 +1,33 @@
+body{
+  background-color: #1b262c;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow-x: hidden;
+
+}
+h1{
+  font-size: 3rem;
+  color: black;
+}
+.coming_soon_wrapper{
+  margin: 30px auto 0 auto;
+
+  text-align: center;
+  top: 30px;
+  width: 70%;
+  height: auto;
+  border: 3px solid white;
+  border-radius: 100%;
+  background-color: white;
+}
+.coming_soon_men{
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  height: auto;
+}
+.social_logo{
+  width: 10%;
+  height: auto;
+}
