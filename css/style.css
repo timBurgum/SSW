@@ -1,0 +1,28 @@
+body{
+  margin: 0;
+  padding: 0;
+
+}
+html, body {
+    overflow: visible;
+}
+.main-logo{
+  margin: 5px auto;
+  text-align: center;
+}
+.main-logo img{
+  width: 30%;
+  height: auto;
+  margin: 0 auto;
+}
+.social-logos{
+  text-align: center;
+}
+.social-logos img{
+  width: 15%;
+  height: auto;
+}
+
+.about-us{
+  text-align: center;
+}
