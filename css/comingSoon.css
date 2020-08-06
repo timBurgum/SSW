@@ -2,3 +2,14 @@
   width: 50%;
   height: auto;
 }
+body{
+  overflow-x: hidden;
+}
+.coming-soon-text{
+  max-width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+.coming-soon-text h4{
+  font-size: 0.8em;
+}
