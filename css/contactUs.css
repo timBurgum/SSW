@@ -1,0 +1,43 @@
+body{
+  text-align: center;
+}
+.containerMain {
+  text-align: center;
+  position: relative;
+  background-image: url("../images/logo-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 50%;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 0;
+  padding-top: 10px;
+}
+.containerMain a{
+  margin: 0 auto;
+  word-wrap: break-word;
+}
+.contact-banner{
+  background-color: rgba(5, 101, 143, 0.1);
+}
+.contact-banner img{
+width: 35%;
+height: auto;
+margin-bottom: 15px;
+margin-top: 10px;
+}
+
+
+/* mobileView */
+@media screen and (max-width:1200px) {
+  .contact-banner{
+    background-color: rgba(5, 101, 143, 0.1);
+  }
+  .contact-banner img{
+  width: 50%;
+  height: auto;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  }
+}

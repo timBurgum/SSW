@@ -68,6 +68,11 @@ nav {
   background-color: rgb(5, 101, 143);
 }
 
+.logo-text{
+letter-spacing: 2px;
+
+}
+
 .logo {
   letter-spacing: 5px;
   font-size: 22px;
@@ -191,6 +196,19 @@ nav {
     cursor: pointer;
     z-index: 10000;
   }
+
+/* contact us banner */
+  .contact-banner{
+    background-color: rgba(5, 101, 143, 0.1);
+  }
+  .contact-banner img{
+  width: 50%;
+  height: auto;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  }
+
+
 }
 
 .nav-active {
