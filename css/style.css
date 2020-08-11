@@ -1,26 +1,25 @@
 body{
   margin: 0;
   padding: 0;
-
 }
 html, body {
     overflow: visible;
 }
+
 .main-logo{
   margin: 5px auto;
   text-align: center;
 }
-.main-logo img{
+.main-logo{
+  display: block;
   width: 30%;
   height: auto;
   margin: 0 auto;
 }
-.social-logos{
-  text-align: center;
-}
-.social-logos img{
-  width: 15%;
+.social-logo{
+  width: 10%;
   height: auto;
+
 }
 
 .about-us{
@@ -29,8 +28,36 @@ html, body {
   margin: 0 auto;
 }
 
+.logo-banner{
+  position: relative;
+  text-align: center;
+  width: 100%;
+  padding-top: 10px;
+}
+
+/* Slideshow */
+.slider-wrapper{
+  margin: 10px auto;
+}
+.carousel-item{
+  overflow-y: hidden;
+}
+.home-banner{
+  background-color: rgba(5, 101, 143, 0.1);
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.home-banner img{
+  width: 70%;
+}
+
+
+
 @media screen and (max-width:1200px) {
 
 .main-logo img{
   width: 50%;
+}
+
 }
